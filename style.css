@@ -1,0 +1,102 @@
+ *{
+    margin: 0;
+    padding: 0;
+} 
+.navbar{
+    width: 100vw;
+    background-color: rgb(168, 205, 237);
+    top: 0%;
+    position: fixed;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+body{
+    height: 100vh;
+    width: 98.72vw;
+}
+.left{
+    width: 49vw;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right ul{
+    display: flex;
+    width: 49vw;
+    gap: 80px;
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+a:hover{
+    text-decoration: underline 4px solid;
+    text-decoration-color: brown;
+}
+.main{
+    height: 85vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: aqua;
+}
+.des{
+    width: 49vw;
+    margin-left: 10vw;
+    text-align: left;
+}
+.des p{
+    font-weight: 400;
+}
+.image{
+    width: 49vw;
+}
+.image p{
+    text-align: center;
+}
+button{
+    padding: 6px;
+    width: 100px;
+    margin-top: 2vh;
+    color: red;
+    font-weight: bold;
+    cursor: pointer;
+}
+img{
+    width: 20vw;
+    margin-left: 14vw;
+    margin-right: 14vw;
+    border-radius: 300px;
+}
+.services{
+    height: 30vh;
+    background-color: rgb(27, 227, 227);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.services h1{
+    display: block;
+}
+.services button{
+    border: 2px solid black;
+    background-color: rgb(50, 18, 43);
+    color: aqua;
+    width: 300px;
+    height: 20vh;
+}
+.contact{
+    height: 30vh;
+    padding-top: 10vh;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(27, 36, 36);
+    color: skyblue;
+}
+.contact h3{
+    color: yellow;
+}
